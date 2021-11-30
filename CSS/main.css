@@ -1,0 +1,178 @@
+/***********************DEFAULT****************/
+/*makes the entire background the color selected*/
+html{
+    background-color: #aad4cf;
+}
+
+body{
+    margin: 0 auto 20px;
+    background-color: #cfdbe0;
+    padding: 0;
+    width: 1022px;
+}
+
+/****************Main***************************/
+ 
+/*edits the header to add the image as a background*/
+header {
+    height: 320px;
+    width: 1050px;
+    background-image: url(/images/lone-starfish-wide.jpg);
+    background-repeat: no-repeat;   
+}
+/*edits the header text*/
+h1 {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+    text-align: center;
+    font-weight: lighter;    
+    padding-top: 199px;
+    margin: 0 auto 20px;
+}
+
+/************Nav****************************************/
+
+/*edits the nav content*/
+.navbar a {
+    text-decoration: none;
+    float: left;
+    list-style-type: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    width: 33%;
+    margin-top: 9px;
+    text-align: center;
+}
+
+/*adds a line divider on the nav tag*/
+.line1{
+    position:absolute;
+    color:black;
+    border-left:1px solid black;
+    height:43px;
+    top: 320px;
+    margin-left:322px;
+ 
+}
+.line2{
+    position:absolute;
+    color:black;
+    border-left:1px solid black;
+    height:43px;
+    top: 320px;
+    margin-left:720px;
+}
+
+/************Content*********************************/
+
+/*sizes the second image*/
+.second-image{
+    width: 225px;
+    float:left;
+    height:250;
+    margin: 5px 15px 15px;
+}
+
+/*edits the font paragraph*/
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left:12px;
+}
+
+/*edits the second header*/
+#story{
+    color:black;
+    clear: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:29px;
+    margin-top: 75px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+ }
+
+ /*edits the third header*/
+#facts{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-top: 17px;
+    margin-bottom: -5px;
+    margin-left: 15px;
+}
+
+/*edits the fourth header*/
+#contact{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-top: 17px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+/*box around the forms*/
+.box1{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 15px;
+    width: 958px;
+    height: 358px;  
+    padding-top: 15px;
+    padding-bottom: 90px;
+    color: #000;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+}
+
+/*editing the forms*/
+#username{
+    width: 960px;
+    margin-right: 20px;
+    padding: 1px 20px;
+    margin: 5px 0;
+    display: block;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+#email{
+    width: 960px;
+    margin-right: 20px;
+    padding: 1px 20px;
+    margin: 5px 0;
+    display: block;
+    border: 1px solid white;
+    box-sizing: border-box;
+ 
+}
+
+#message{
+    width: 960px;
+    margin-right: 20px;
+    padding: 1px 20px;
+    margin: 5px 0;
+    display: block;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+#submit{
+    display:block;
+    background-color: rgb(204, 230, 241);
+    color:black;
+    border: 1px solid black;
+    padding:7px;
+    margin-top: 7px;
+    font-size: 10px;
+}
+
+footer {
+    text-align: right;
+    padding-right: 35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
