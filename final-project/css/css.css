@@ -1,2 +1,684 @@
 
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*******************navigation*********************/
+
+.container{
+    background-color: #222222;
+    padding: 12px 12px 0px 12px;
+}
+
+.navbar {
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+    font-size: 16px;
+    background-color: #222222;
+    text-align: center;
+}
+
+.navbar a{
+    display: block;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    text-decoration: none;
+    color: #c78c06;
+}
+
+.navbar .homecolor {
+    background-color: #c78c06;
+    color: #222222
+}
+
+/**************seach bar*******************/
+
+.search {
+    display: flex;
+    margin-bottom: 15px;
+    padding-left: 70px;
+}
+
+.search2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: 45px;
+}
+
+.searchbutton {
+    height: 55px;
+    width: 55px;
+    border: 1px solid #c78c06;
+    color: #c78c06;
+    background-color: #222;
+}
+
+/**********************welcome header******************************/
+
+.header{
+    background-image: url("../images/main-banner.jpg");
+    background-color: #ffe6ac;
+    position: relative;
+    margin-right: -20px;
+    margin-left: -20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    color: white;   
+}
+
+.greybanner{
+    background-color: rgba(34, 34, 34, .6);
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-right: 16px;
+    line-height: 110px;
+    padding-top: 80px;
+}
+
+.pheader{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.button1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    width: 260px;
+    height: 98px;
+    background-color: #c78c06;
+    color: #222;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+/************about us************************/
+
+.about{
+    background-color: #ffe6ac;
+    padding: 10px 10px 25px 10px;
+    height: auto;
+}
+
+.h2about{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    padding-top: 40px;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+
+/**************** services **************************************/
+
+.services{
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.h2services{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.digitalplan{
+    background-color: #ffe6ac;
+    margin: 15px;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    margin-top: 48px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 15px;
+    font-weight: normal;
+}
+
+.button2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    border: none;
+    width: 220px;
+    height: 95px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: #222222;
+    color: #fefefe;
+}
+
+
+.marketingplan{
+    background-color: #ffe6ac;
+    margin: 15px;
+    height: auto;
+}
+
+.video{
+    background-color: #ffe6ac;
+    margin: 15px;
+}
+
+.web{
+    background-color: #ffe6ac;
+    margin: 15px;
+}
+
+.print{
+    background-color: #ffe6ac;
+    margin: 15px;
+}
+
+/******************* vision section ********************/
+
+.sectionvision{
+    background-image: url("../images/vision.jpg");
+    background-color: white;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px 15px 15px 15px
+}
+
+.button3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #fefefe;
+    background-color: #222222;
+    border: 1px solid #b87f16;
+    font-size: 21px;
+    width: 220px;
+    height: 92px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.h3vision{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    margin-bottom: 30px;
+    margin-top: 45px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: bold;
+    color: white;
+} 
+
+.pvision{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 15px;
+    color: white;
+}
+
+/**********************88 team section ***********************************/
+
+.team {
+    padding-top: 33px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;        
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px; 
+}
+
+.john, .bob {
+    background-color: #ffe5ad;
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #b87f16; 
+}
+
+.johnimg{
+    width: 100%;
+}
+
+.bobimg{
+    height: 455px;
+    width: 100%;
+}
+
+/****************************contact***************************/
+
+.h2contact{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 47px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+
+.h3message{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 37px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.contact{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+input[type=text]{ 
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+
+ } 
+
+ input[type=email]{ 
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    width: 100%;
+    height: 30px;
+ } 
+
+#message{
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    width: 100%;
+    resize: none;
+    height: 150px;
+}
+
+input[type=submit]{
+    border: none;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    background: #222;
+    color: #c78c06;
+}
+
+.h3operation {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.operation{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+table{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 13px;
+}
+
+th{
+    background-color: #ffe6ac;
+}
+
+.h3location{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -62px;
+    margin-bottom: 20px;
+}
+
+.location{
+    margin-left: 40px;
+    margin-right: 17px;
+}
+
+.map{
+    width: 100%;
+}
+
+
+/********************* Footer******************************/
+
+footer .link {
+    color: #c78c06;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #c78c06;
+    background-color: #222;
+    padding: 15px;
+    line-height: 20px;
+}
+
+
+
+
+
+/********************desktop*********************/
+
+@media screen and (min-width: 760px){
+    
+    
+/*******************Navigation********************/
+
+.flexnav, ul, a, .logo, .search{
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+
+.flexnav{
+    margin-left: 137px;
+    margin-right: 137px;
+}
+
+.navbar li a{
+    margin: 30px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.logo{
+    width: auto;
+}
+
+.container.navbar{
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.search{
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 35px;
+    margin-left: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: auto;
+}
+
+.searchbutton {
+    height: 33px;
+    width: 42px;
+    margin: auto;
+}
+
+
+/**********************welcome header**************************/
+.banner{
+    margin: 0 125px 0 125px;
+}
+
+h1{
+    font-size: 100px;
+}
+
+.pheader{
+    font-size: 20px;
+}
+
+
+/*****************aboutus*****************/
+
+.about{
+    height: 315px;
+}
+.about .about{
+    float: left;
+    width: 50%;
+    height: 300px;
+    margin-right: 15px;
+}
+
+.outline{
+    margin: 0 130px 0 130px;
+}
+
+/*******************Servcies***************/
+
+.services{
+    font-size: 65px;
+    margin: 0 130px 0 130px;
+}
+
+/*************** vision *******************88*/
+ 
+.h3vision{
+    font-size: 40px;
+}
+
+
+.pvision{
+    font-size: 19px;
+    line-height: 25px
+    
+}
+
+.vision{
+    margin: 0 120px 0 120px;
+}
+
+/****************888 grid box services *******************/
+
+.gridbox{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.gridbox .box:nth-child(1) {
+    grid-column: 1/4;
+  }
+
+  .gridbox .box:nth-child(2) {
+    grid-column: 4/7;
+  }
+
+  .gridbox .box:nth-child(3) {
+    grid-column: 1/3;
+  }
+
+  .gridbox .box:nth-child(4) {
+    grid-column: 3/5;
+  }
+
+  .gridbox .box:nth-child(5) {
+    grid-column: 5/7;
+  }
+
+/*********************888 team*************************** */
+
+.teamgrid{
+    margin: 0 120px 0 120px;
+}
+
+.johnimg{
+    float:left;
+    width: 50%;
+    margin-right: 10px;
+}
+
+.h3john{
+    padding-top: 35px;
+}
+
+.john{
+    margin-bottom: 0px;
+}
+
+.h3bob{
+    margin-top: 0px;
+    padding-top: 40px;
+}
+
+.bobimg{
+    float:right;
+    width: 50%;
+}
+
+.border1, .border2{
+    height: 465px;
+    margin-bottom: 0px;
+}
+
+/*********************contact************************************/
+
+.contact{
+    margin: 0 120px 0 120px;
+}
+
+.grid-th{
+    display: grid;
+    align-items: start;
+    grid-template-columns :repeat(2,1fr);
+    grid-template-rows : repeat(2,1fr);
+  }
+
+  .grid-th .cgrid:nth-child(1) {
+    grid-column:1 ;
+   }
+
+   .grid-th .cgrid:nth-child(2) {
+    grid-row:2 ;
+    grid-column:1 / span 2;
+    max-height: 50px;
+   }
+
+   .grid-th .cgrid:nth-child(3) {
+    grid-row:2 ;
+    grid-column:1 / span 1;
+   }
+
+
+   /************************ fotter****************************/
+   footer{
+    width: 100%;
+}
+
+.link{
+    display: inline;
+}
+}
