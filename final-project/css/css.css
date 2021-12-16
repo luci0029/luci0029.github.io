@@ -54,6 +54,10 @@ table {
 
 /*******************navigation*********************/
 
+.logo {
+    background-color: #c78b07;
+}
+
 .container{
     background-color: #222222;
     padding: 12px 12px 0px 12px;
